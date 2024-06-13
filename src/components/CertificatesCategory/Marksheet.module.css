@@ -1,0 +1,102 @@
+.imageContainer {
+	position: relative;
+	width: 500px;
+	min-width: 500px;
+	margin: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.registration_no,
+.enrollment_no,
+.name,
+.father_name,
+.mother_name,
+.dob,
+.course,
+.duration,
+.term_1,
+.term_2,
+.term_3,
+.term_4,
+.practical,
+.date,
+.totalMarks {
+	position: absolute;
+	color: darkblue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.registration_no {
+	top: 180px;
+	left: 136px;
+}
+
+.enrollment_no {
+	top: 200px;
+	left: 136px;
+}
+
+.name {
+	top: 218px;
+	left: 136px;
+}
+
+.father_name {
+	top: 238px;
+	left: 136px;
+}
+
+.mother_name {
+	top: 256px;
+	left: 136px;
+}
+
+.dob {
+	top: 274px;
+	left: 136px;
+}
+
+.course {
+	top: 294px;
+	left: 136px;
+}
+
+.duration {
+	top: 290px;
+	right: 110px;
+}
+
+.term_1 {
+	bottom: 290px;
+	right: 80px;
+}
+
+.term_2 {
+	bottom: 272px;
+	right: 80px;
+}
+
+.term_3 {
+	bottom: 254px;
+	right: 80px;
+}
+
+.term_4 {
+	bottom: 236px;
+	right: 80px;
+}
+
+.practical {
+	bottom: 218px;
+	right: 80px;
+}
+
+.totalMarks {
+	top: 502px;
+	right: 76px;
+}
+
+.date {
+	bottom: 144px;
+	right: 226px;
+}

@@ -1,0 +1,92 @@
+.imageContainer {
+	position: relative;
+	width: 700px;
+	min-width: 500px;
+	margin: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.imageContainer img {
+	width: 100%;
+}
+
+.registration_no,
+.enrollment_no,
+.name,
+.guardian_name,
+.dob,
+.course,
+.duration,
+.grade,
+.date,
+.totalMarks {
+	position: absolute;
+	color: darkblue;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.registration_no {
+	top: 170px;
+	left: 140px;
+}
+
+.enrollment_no {
+	top: 186px;
+	left: 140px;
+}
+
+.name {
+	top: 215px;
+	right: 284px;
+	font-size: 22px;
+}
+
+.guardian_name {
+	top: 258px;
+	left: 210px;
+	font-size: 22px;
+}
+
+.course {
+	top: 306px;
+	left: 136px;
+	font-size: 20px;
+}
+
+.duration {
+	top: 306px;
+	right: 80px;
+	font-size: 20px;
+}
+
+.grade {
+	top: 348px;
+	left: 236px;
+	font-size: 20px;
+}
+
+.totalMarks {
+	top: 348px;
+	right: 80px;
+	font-size: 20px;
+}
+
+.date {
+	top: 468px;
+	left: 96px;
+	font-size: 18px;
+}
+
+.profilePic {
+	position: absolute;
+	width: 84px;
+	height: 104px;
+	top: 60px;
+	right: 20px;
+}
+
+.profilePic img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
